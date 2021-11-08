@@ -97,8 +97,8 @@ section img#mountain_front
 }
 #text
 {
-    position: right;
-    right: 2000px;
+    position: absolute;
+    right: -900px;
     color: #fff;
     white-space: nowrap;
     font-size: 7.5vw;
