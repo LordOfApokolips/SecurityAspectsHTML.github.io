@@ -97,7 +97,7 @@ section img#mountain_front
 }
 #text
 {
-    position: absolute;
+    position: right;
     right: -1100px;
     color: #fff;
     white-space: nowrap;
