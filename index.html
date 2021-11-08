@@ -15,9 +15,10 @@
             </ul>
         </header>
         <section>
-            <img src="2154.jpg" id="bacgroundf">
+            <img src="stars 3.jpeg" id="stars">
             <h2 id="text">Security Aspects</h2>
             <a href="#sec" id="btn">Explore</a>
+            <img src="mountains_front.png" id="mountain_front">
         </section>
         <div class="sec" id="sec">
             <h2><u>Security Aspects</u></h2>
@@ -137,7 +138,13 @@
             
         </div>
         <script>
-            let bacgroundf = document.getElementById('backgroudf');
+            let stars = document.getElementById('stars');
+            let mountains_behind = document.getElementById('mountains_behind');
+            let text = document.getElementById('text');
+            let mountains_front = document.getElementById('mountains_front');
+            let btn = document.getElementById('btn');
+
+
             window.addEventListener('scroll', function(){
                 let value = window.scrollY;
                 stars.style.left = value * 0.15 + 'px';
