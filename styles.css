@@ -110,6 +110,7 @@ h3{
   }
 #btn
 {
+    scroll-behavior: smooth;
     text-decoration: none;
     display: inline-block;
     padding: 8px 30px;
@@ -118,8 +119,7 @@ h3{
     color: #2b1055;
     font-size: 1.5em;
     z-index: 9;
-    scroll-behavior: smooth;
-    transform: translateY(120px);
+    transform: translateY(150px);
 }
 .sec
 {
